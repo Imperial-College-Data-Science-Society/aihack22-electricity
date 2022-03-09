@@ -1,0 +1,1 @@
+# aihack22-electricity

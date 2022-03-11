@@ -53,7 +53,7 @@ We suggest the day ahead price is the easiest to forecast; and the system price 
 
 There are 3 csv files, containing:
 - [2 years of EPEX data](epex_day_ahead_price.csv)
-- [2 years of SPOT data](spot_intraday_price.scv)
+- [2 years of SPOT data](spot_intraday_price.csv)
 - [2 years of system price data](systemprice.csv) 
 
 For context, a settlement period (SP) is of length 30 mins and SP 1 corresponds to the period 00:00 - 00:30 in local time. There are 48 SP in a day, apart from on clock change days where there are 46 and 50.

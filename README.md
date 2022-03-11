@@ -1,6 +1,11 @@
-# aihack22-electricity
+# AI-hack 2022, Electricity
 
 ![alt](limejump-logo.png)
+
+
+# Problem description
+
+
 In the UK, the price of electricity changes every 30 minutes.
 
 We provide some time series data sets which describe this power price over the last few years. 
@@ -24,7 +29,9 @@ If you decide to optimise an idealised battery or gas peaking plant, this become
 
 ## Explanation of EPEX data
 The EPEX price is the price of energy, £/MWh, which is auctioned at 9am the day before delivery. Typically in this auction, many renewable energy generators will sell the power they predict their wind & solar sites to generate; and suppliers (who might supply power to business and households) will purchase power according to their predicted needs. Incidentally, suppliers like Bulb purchase a lot of their power on the day ahead auction. It is an algorithmic auction, in which bids and offers are placed into the exchange for 9am, and the results are announced at 10am. The auction is pay-as-clear; ie everyone who participates gets the same price. The auction clears one price per hour: starting from 11pm (local time) the day of the auction, running until 10:30pm the next day (at which point the new day’s results will take over). 
+
 Typically, if there is a lot of wind on the system - which has no associated fuel cost - and not much demand, for example on a Sunday when demand across the country is quite low - power prices will be cheap; especially overnight when most people are asleep and not boiling kettles! On the other hand, if there is very little wind and not much sun, and the UK has to rely on gas fired power stations for much of our energy - and gas prices are very high - power prices will be very expensive.
+
 Each generation type (wind, solar, gas, coal, nuclear, hydro…) will have an associated run cost, depending on various economic factors such as running costs & fuel costs. At the moment, because gas prices are so high, the day ahead prices are clearing very high compared to say 1 year ago - as the cost of operating a gas fuelled power station is high.
 
 The EPEX price is known at 10am the day before the dispatch; the spot price is known within the day, and the system price is known after the end of the half hour period in question.
@@ -55,6 +62,8 @@ All prices are given in £/MWh.
 
 Assume a battery of capacity 1MWh which has available charge and discharge power of 1MW, and a round trip efficiency of 85%.
 
+*Please note that the data belongs to Limejump and you are only allowed to use the data for the purposes of this practical exercise to be shared only with Limejump employees. Downloading the data, means that you have agreed with this usage restriction. If you do not agree with this, please do not download the data and contact us.*
+
 # Tasks
 
 We ask that you spend no more than 2 hours on this task. 
@@ -67,4 +76,3 @@ If you do end up spending more time on it, please indicate where you got to afte
 3.	How might you improve on this optimisation with more time?
 
 
-*Please note that the data belongs to Limejump and you are only allowed to use the data for the purposes of this practical exercise to be shared only with Limejump employees. Downloading the data, means that you have agreed with this usage restriction. If you do not agree with this, please do not download the data and contact us.*

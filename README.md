@@ -40,7 +40,7 @@ The EPEX price is known at 10am the day before the dispatch; the spot price is k
 
 The SPOT price describes the cost of power as bought and sold on the intraday market (as opposed to at day ahead). It is closer to real time, meaning that forecasts of supply and demand should be better (because, for example, weather forecasts are more accurate closer to real time). It is a closed order book, as opposed to an auction, and is typically less liquid than the day ahead market - meaning that less power is bought and sold. The SPOT price is the weighted average price from that order book and changes every half an hour. 
 
-Explanation of System Price
+## Explanation of System Price
 
 It is the job of National Grid to balance supply and demand on the UK Electricity system in real time, in order to maintain security of supply - and ensure our lights stay on! They have real time metering of the network; and if there looks to be a shortfall of energy in the next 30 minutes, they might need to phone up a power station, and ask them to increase their output. The cost of doing this across different locations and for different reasons is reflected in the ‘System Price’; which is also called the ‘System Sell Price’, ’System Buy Price’ ,’Imbalance Price’ (and all are identical). Any supplier or generator who does not do what they said they would do; ie they’ve misforecast their wind production and are suddenly have less generation (they are short) by 100MW; will have to pay for this at the system imbalance price. 
  
